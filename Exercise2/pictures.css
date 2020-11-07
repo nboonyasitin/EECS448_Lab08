@@ -1,0 +1,17 @@
+body
+{
+    background-color: rgb(195, 218, 251);
+}
+
+.slideshow-container 
+{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* .mySlide
+{
+    display: none;
+} */
+
