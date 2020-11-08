@@ -2,12 +2,21 @@ h1
 {
     background-color: palevioletred;
 }
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%
+}
+
 body
 {
     background-image: url(fishies.png);
     background-size: 20%;
     background-repeat:repeat;
 }
+
 p
 {
     background-color: pink;
@@ -20,11 +29,13 @@ a
     background-color: peachpuff;
     color: blue;
 }
+
 a:hover
 {
     background-color: lightseagreen;
     color: purple;
 }
+
 p.beau
 {
     font-style: Sans-serif;
