@@ -3,15 +3,31 @@ body
     background-color: rgb(195, 218, 251);
 }
 
-.slideshow-container 
+.center
 {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
-/* .mySlide
+button
 {
-    display: none;
-} */
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
 
+button:hover{
+    background-color: rgba(255, 205, 243, 0.8);
+}

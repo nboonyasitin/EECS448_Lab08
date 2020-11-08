@@ -1,13 +1,23 @@
-var pic1 = document.getElementById("slideNum1").value;
-var pic2 = document.getElementById("slideNum2").value;
-var pic3 = document.getElementById("slideNum3").value;
-var pic4 = document.getElementById("slideNum4").value;
-var pic5 = document.getElementById("slideNum5").value;
 
+let pics =[];
+let i = 1;
 
-function advanceSlide()
-{
-    console.log("Im here");
-    console.log(pic1);
-}
+   pics.push("welcome.jpg")
+   pics.push("watching.jpg")
+   pics.push("dreaming.jpg")
+   pics.push("napping.jpg")
+   pics.push("snoring.jpg")
+
+   function nextPic()
+   {
+       if(i == pics.length)
+       {
+           i = 1;
+           document.slide.src = pics[0]
+       }
+       else
+       {
+           document.slide.src = pics[i++]
+       }
+   }
 
