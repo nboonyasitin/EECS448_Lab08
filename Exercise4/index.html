@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    
+    <h1>Exercise 4!</h1>
+        <div id="line1">"Let's fall in love for the night</div>
+
+        <div id="line2">And forget in the mornin'</div>
+
+        <div id="line3">Play me a song that you like</div>
+
+        <div id="line4">You can bet I'll know every line</div>
+
+        <div id="line5">I'm the boy that your boy hoped that you would avoid</div>
+
+        <div id="line6">Don't waste your eyes on jealous guys, forget that noise</div>
+
+        <div id="line7">I know better than to call you mine."</div>
+        
+        <div id="line8">-FINNEAS</div>
+
+        <button type="button" onclick="thickLine1Boarder1()">Thick Red Boarder for line 1</button>
+        <button type="button" onclick="thickLine1Boarder2()">Thick Green Boarder for line 1</button>
+        <button type="button" onclick="thickLine1Boarder3()">Thick Blue Boarder for line 1</button><br><br>
+
+        <button type="button" onclick="dottedLine3Boarder1()">Dotted Red Boarder for line 3</button>
+        <button type="button" onclick="dottedLine3Boarder2()">Dotted Green Boarder for line 3</button>
+        <button type="button" onclick="dottedLine3Boarder3()">Dotted Blue Boarder for line 3</button><br><br>
+
+        <button type="button" onclick="line5Fill1()">Fill Boarder Red for line 5</button>
+        <button type="button" onclick="line5Fill2()">Fill Boarder Green for line 5</button>
+        <button type="button" onclick="line5Fill3()">Boarder for Blue line 5</button>
+
+        <script>
+        //THICK SOLID BORDERS
+        function thickLine1Boarder1()
+        {
+            document.getElementById("line1").style.border = "thick solid red";
+        }
+        function thickLine1Boarder2()
+        {
+            document.getElementById("line1").style.border = "thick solid green";
+        }
+        function thickLine1Boarder3()
+        {
+            document.getElementById("line1").style.border = "thick solid blue";
+        }
+        //DOTTED SOLID BOARDERS
+        function dottedLine3Boarder1()
+        {
+            document.getElementById("line3").style.border = "dotted red";
+        }
+        function dottedLine3Boarder2()
+        {
+            document.getElementById("line3").style.border = "dotted green";
+        }
+        function dottedLine3Boarder3()
+        {
+            document.getElementById("line3").style.border = "dotted blue";
+        }
+        //COLOR FILL BOARDERS
+        function line5Fill1()
+        {
+            document.getElementById("line5").style.background = "red";
+        }
+        function line5Fill2()
+        {
+            document.getElementById("line5").style.background = "green";
+        }
+        function line5Fill3()
+        {
+            document.getElementById("line5").style.background = "blue";
+        }
+
+        </script>
+
+</html>
